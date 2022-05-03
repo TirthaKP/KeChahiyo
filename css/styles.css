@@ -44,9 +44,10 @@ p {
     font-size: 1.2rem;
 }
 
+/* logo */
 .logo {
     border-radius: 100%;
-    width: 80px;
+    width: 100px;
 }
 
 /* Hello Button */
@@ -83,9 +84,11 @@ p {
 /* product box */
 .product-box {
     text-align: center;
-    padding: 5%;
+    padding: 10px 0;
     margin: auto;
+    width: 150px;
 }
+
 
 /* Footer */
 #footer {
