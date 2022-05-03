@@ -17,14 +17,15 @@ h1 {
     font-weight: bold;
 }
 
-h3{
+h3 {
     font-family: "Montserrat";
     font-weight: bold;
 }
 
-p{
+p {
     color: #7c7b7b;
 }
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -69,16 +70,26 @@ p{
     text-align: center;
     padding: 5%;
 }
-.icon{
+
+.icon {
     color: #ef8172;
     margin-bottom: 1rem;
 }
 
-.icon:hover{
+.icon:hover {
     color: #ff4c2c;
 }
+
+/* product box */
+.product-box {
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+}
+
 /* Footer */
 #footer {
     padding: 50px;
     text-align: center;
+
 }
