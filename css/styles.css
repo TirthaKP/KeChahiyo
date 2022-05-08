@@ -54,6 +54,9 @@ p {
     border-radius: 100%;
     width: 100px;
 }
+.angle-sign{
+    margin-left: 60px;
+}
 
 /* Hello Button */
 .hello-button {
@@ -64,12 +67,16 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    
+    
 }
 
 /* Feature */
-
-/* #features {
+/* 
+#features {
     padding: 10px;
+    background-color: #fff;
+    position: relative;
 } */
 
 .feature-box {
@@ -87,13 +94,22 @@ p {
 }
 
 /* product box */
-.product-box {
-    text-align: center;
-    padding: 10px 0;
-    margin: auto;
+.product-image {
+    height: 200px;
     width: 150px;
+    padding: 20px;
+    margin: auto;
+    
 }
-
+.product-box{
+    text-align: center;
+    padding: 5%;
+    font-size: 14px;
+}
+.market-price{
+    color: #ff4c2c;
+    text-decoration: line-through;
+}
 /* testimonials section */
 
 #testimonials{
@@ -119,6 +135,17 @@ p {
 .press-logo{
     width: 25%;
     padding: 10px;
+}
+
+/* Pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+    background-color: #e7ede7;
+    margin-top: 0;
+}
+.pricing-column{
+    padding: 3%;
 }
 /* Footer */
 #footer {
